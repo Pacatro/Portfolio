@@ -1,0 +1,16 @@
+body {
+    background-color: #041624;
+}
+
+.init {
+    padding-top: 30px;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.profile {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #b300ff;
+}
