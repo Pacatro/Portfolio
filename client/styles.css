@@ -2,11 +2,42 @@ body {
     background-color: #041624;
 }
 
+.top_bar {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.top_bar .name {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Nabla', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top_bar .links a {
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Nabla', cursive;
+    font-family: 'Rajdhani', sans-serif;
+}
+
 .image {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 150px;
 }
 
 .image img {
@@ -26,17 +57,21 @@ body {
 }
 
 .text .name_text {
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .text h1 {
     margin: auto;
     font-size: 60px;
     font-weight: 800;
+    font-family: 'Nabla', cursive;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .text h2 {
     font-weight: 500;
     font-size: 30px;
     margin: auto;
+    font-family: 'Nabla', cursive;
+    font-family: 'Rajdhani', sans-serif;
 }
