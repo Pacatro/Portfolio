@@ -2,15 +2,41 @@ body {
     background-color: #041624;
 }
 
-.init {
-    padding-top: 30px;
-    display: grid;
-    place-items: center;
-    color: white;
+.image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
 }
 
-.profile {
+.image img {
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     border-style: solid;
     border-color: #b300ff;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+}
+
+.text .name_text {
+    padding-top: 50px;
+}
+
+.text h1 {
+    margin: auto;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.text h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin: auto;
 }
