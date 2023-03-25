@@ -75,3 +75,41 @@ a {
     font-family: 'Nabla', cursive;
     font-family: 'Rajdhani', sans-serif;
 }
+
+.links_image {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+
+.logos {
+    height: 100px;
+    width: 100px;
+}
+
+.progress {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.progress-bar {
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #b300ff;
+    height: 90px;
+    width: 350px;
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Nabla', cursive;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #061d30;
+}
